@@ -6,9 +6,9 @@ const generateSTYLES = () => {
         background-repeat: no-repeat;
         background-position: center;
     
-      font-family: "Open Sans", sans-serif;
-      max-height: 700px;
-      overflow: hidden;
+        font-family: "Open Sans", sans-serif;
+        max-height: 700px;
+        overflow: hidden;
     }
    
      </style>`;
@@ -17,14 +17,6 @@ const generateSTYLES = () => {
   const generateHTML = (pageName) => {
     return `
      
-     <div id="clouds">
-        <div class="cloud x1"></div>
-        <div class="cloud x1_5"></div>
-        <div class="cloud x2"></div>
-        <div class="cloud x3"></div>
-        <div class="cloud x4"></div>
-        <div class="cloud x5"></div>
-    </div>
     <div class='c'>
         
         <div class='_1'>This Device Is Not You</div>
