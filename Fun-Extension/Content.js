@@ -16,6 +16,7 @@ const generateSTYLES = () => {
   const generateHTML = (pageName) => {
     return `
      
+    
     <div class='c'>
         
         <div class='_1'><h1>This Device Is Not You</h1></div>
