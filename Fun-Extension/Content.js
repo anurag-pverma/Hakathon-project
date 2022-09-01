@@ -5,8 +5,7 @@ const generateSTYLES = () => {
         height: 500px; 
         background-repeat: no-repeat;
         background-position: center;
-    
-        font-family: "Open Sans", sans-serif;
+  
         max-height: 700px;
         overflow: hidden;
     }
@@ -19,7 +18,7 @@ const generateSTYLES = () => {
      
     <div class='c'>
         
-        <div class='_1'>This Device Is Not You</div>
+        <div class='_1'><h1>This Device Is Not You</h1></div>
         <div class='_2'>Please Leave There > ${pageName}</div>
     </div>
      `;
@@ -54,6 +53,10 @@ const generateSTYLES = () => {
       case "www.whatsapp.com":
         document.head.innerHTML = generateSTYLES();
         document.body.innerHTML = generateHTML("WHATSAPP");
+        break;
+        case "www.hotstar.com":
+        document.head.innerHTML = generateSTYLES();
+        document.body.innerHTML = generateHTML("HOTSTAR");
         break;
         
   }
