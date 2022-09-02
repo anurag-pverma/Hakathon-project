@@ -13,7 +13,7 @@ const generateSTYLES = () => {
       display:flex;
       align-items:center;
       justify-content:space-around;
-      font-size:100px;
+      font-size:30px;
       color:red;
 
     }
