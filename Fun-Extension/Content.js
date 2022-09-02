@@ -15,7 +15,11 @@ const generateSTYLES = () => {
       justify-content:space-around;
       font-size:30px;
       color:red;
+     
 
+    }
+    .c>div{
+      margin-top:50%;
     }
    
      </style>`;
