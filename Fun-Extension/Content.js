@@ -9,6 +9,10 @@ const generateSTYLES = () => {
         max-height: 700px;
         overflow: hidden;
     }
+    .c{
+      display:flex;
+
+    }
    
      </style>`;
   };
