@@ -19,7 +19,7 @@ const generateSTYLES = () => {
 
     }
     .c>div{
-      margin-top:50%;
+      margin-top:500px;
     }
    
      </style>`;
@@ -29,9 +29,9 @@ const generateSTYLES = () => {
     return `
     <div class='c'>
         
-        <div class='_1'><h1>This Device Is Not You</h1></div>
+        <div class='_1'><h1>This Device Is Not You 😂😂😂😂</h1></div>
         <div class='_2'>
-        <h1>Please Dont Touch This > ${pageName}</h1></div>
+        <h1>Please Dont Touch This 😡😡😡😡> ${pageName}</h1></div>
     </div>
      `;
   };
