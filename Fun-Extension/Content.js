@@ -11,6 +11,10 @@ const generateSTYLES = () => {
     }
     .c{
       display:flex;
+      align-items:center;
+      justify-content:space-around;
+      fonnt-size:60px;
+      color:red;
 
     }
    
@@ -22,7 +26,8 @@ const generateSTYLES = () => {
     <div class='c'>
         
         <div class='_1'><h1>This Device Is Not You</h1></div>
-        <div class='_2'>Please Leave There > ${pageName}</div>
+        <div class='_2'>
+        <h1>Please Dont Touch This > ${pageName}</h1></div>
     </div>
      `;
   };
