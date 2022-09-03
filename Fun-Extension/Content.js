@@ -70,6 +70,22 @@ const generateSTYLES = () => {
         document.head.innerHTML = generateSTYLES();
         document.body.innerHTML = generateHTML("HOTSTAR");
         break;
+        case "www.masaischool.com":
+        document.head.innerHTML = generateSTYLES();
+        document.body.innerHTML = generateHTML("MASAISCHOOL");
+        break;
+        case "www.twitter.com":
+        document.head.innerHTML = generateSTYLES();
+        document.body.innerHTML = generateHTML("TWITTER");
+        break;
+        case "www.instagram.com":
+        document.head.innerHTML = generateSTYLES();
+        document.body.innerHTML = generateHTML("INSTAGRAM");
+        break;
+        case "hwww.kooapp.com/":
+        document.head.innerHTML = generateSTYLES();
+        document.body.innerHTML = generateHTML("INSTAGRAM");
+        break;
         
   }
   
