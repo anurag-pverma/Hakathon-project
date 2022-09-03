@@ -75,9 +75,9 @@ const generateSTYLES = () => {
         document.head.innerHTML = generateSTYLES();
         document.body.innerHTML = generateHTML("INSTAGRAM");
         break;
-        case "hwww.kooapp.com/":
+        case "wwww.kooapp.com/":
         document.head.innerHTML = generateSTYLES();
-        document.body.innerHTML = generateHTML("INSTAGRAM");
+        document.body.innerHTML = generateHTML("KOOAPP");
         break;
         
   }
