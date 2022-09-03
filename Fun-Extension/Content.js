@@ -1,7 +1,7 @@
 const generateSTYLES = () => {
     return `<style>@import url(https://fonts.googleapis.com/css?family=opensans:500);
     body {
-        background-image: url("https://i.pinimg.com/originals/f5/9c/e3/f59ce3c50ff404d3e0531e9306ef2864.jpg");
+        background-image: url("https://docs.microsoft.com/answers/idea/35820/the-page-isnt-working-right-now.html");
         height: 500px; 
         background-repeat: no-repeat;
         background-position: center;
@@ -28,10 +28,7 @@ const generateSTYLES = () => {
   const generateHTML = (pageName) => {
     return `
     <div class='c'>
-        
-        <div class='_1'><h1>This Device Is Not You 😂😂😂😂</h1></div>
-        <div class='_2'>
-        <h1>Please Dont Touch This 😡😡😡😡> ${pageName}</h1></div>
+        ${pageName}
     </div>
      `;
   };
