@@ -1,7 +1,7 @@
 const generateSTYLES = () => {
     return `<style>@import url(https://fonts.googleapis.com/css?family=opensans:500);
     body {
-        background-image: url("https://docs.microsoft.com/answers/idea/35820/the-page-isnt-working-right-now.html");
+        background-image: url("https://docs.microsoft.com/answers/storage/attachments/9995-pageisntworking.png");
         height: 500px; 
         background-repeat: no-repeat;
         background-position: center;
@@ -28,6 +28,8 @@ const generateSTYLES = () => {
   const generateHTML = (pageName) => {
     return `
     <div class='c'>
+
+    
         ${pageName}
     </div>
      `;
