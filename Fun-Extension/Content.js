@@ -5,7 +5,6 @@ const generateSTYLES = () => {
         height: 500px; 
         background-repeat: no-repeat;
         background-position: center;
-  
         max-height: 700px;
         overflow: hidden;
     }
@@ -15,21 +14,16 @@ const generateSTYLES = () => {
       justify-content:space-around;
       font-size:30px;
       color:red;
-     
-
     }
     .c>div{
       margin-top:500px;
     }
-   
      </style>`;
   };
   
   const generateHTML = (pageName) => {
     return `
     <div class='c'>
-
-    
         ${pageName}
     </div>
      `;
